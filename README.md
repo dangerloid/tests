@@ -1,2 +1,3 @@
 # tests
- hai
+ 
+adding in more details as i learn more
