@@ -1,0 +1,30 @@
+#main {
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #title {
+    text-align: center;
+    margin: 50px;
+  }
+  
+  #image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-caption {
+    text-align: center;
+    margin: 30px;
+  }
+  
+  #tribute-info {
+    padding: 10px 200px 10px 200px;
+    text-align: center;
+  }
+  
+  .p-link {
+    text-align: center;
+  }
