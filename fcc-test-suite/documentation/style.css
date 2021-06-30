@@ -1,0 +1,17 @@
+/* navbar is broken */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    
+  }
+  
+  main {
+    position: relative;
+  }
+  /* media query is broken */
+  @media screen and (max-width: 100px) {
+    width: 100%;
+  }
