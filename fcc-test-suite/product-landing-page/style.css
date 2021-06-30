@@ -1,0 +1,7 @@
+#nav-bar, #form {
+    display: flex;
+  }
+  /* media query is broken */
+  @media screen and (max-width 600px) {
+    background-color: tan;
+  } 
