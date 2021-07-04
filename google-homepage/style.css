@@ -1,18 +1,18 @@
-#navbar {
+#logo {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 290px;
 }
 
-#navlink li {
-  display: inline;
-}
-
-#main {
+form {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#main img {
-  width: 272px;
-  height: 92px;
+#searchbar {
+  width: 527px;
+  height: 34px;
+
 }
