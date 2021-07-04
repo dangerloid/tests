@@ -1,32 +1,18 @@
 #navbar {
-    padding: 60;
-    width: 400;
+  display: flex;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
+#navlink li {
   display: inline;
-  padding: 60;
 }
 
-#main-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer {
-    background-color: #f2f2f2;
+#main img {
+  width: 272px;
+  height: 92px;
 }
