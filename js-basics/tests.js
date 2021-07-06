@@ -57,7 +57,7 @@ x = 5; */
 and converts empty strings to 0 */
 
 true + false; // 1
-// 0 + 1 = 1
+// 1 + 0 = 1
 
 6 / "3"; // 2
 // division converts string to number
