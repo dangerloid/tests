@@ -76,7 +76,7 @@ js does "$" + 4 = "$4" and converts 5 to a string
 when "$4" + 5 */
 
 "4" - 2; // 2
-// subtraction converts string to number 
+// subtraction converts string to number
 
 "4px" - 2; // NaN
 // "4px" is not a number and can't be added to one
@@ -111,3 +111,88 @@ let a = prompt("First number?", 1);
 let b = prompt("Second number?", 2);
 
 alert(+a + +b); // 3
+
+// if else //
+
+// if(string w/ zero)
+
+if ("0") {
+  alert("Hello");
+}
+
+// alert will be shown
+
+// name of javascript
+
+let value = prompt('What\'s the "official" name of JavaScript?');
+
+if ((value = "ECMAScript")) {
+  alert("Right!");
+} else {
+  alert('You don\'t know? "ECMAScript!"');
+}
+
+// show the sign
+
+let value = prompt();
+
+if (value > 0) {
+  alert(1);
+} else if (value < 0) {
+  alert(-1);
+} else {
+  alert(0);
+}
+
+// rewrite 'if' into '?'
+
+// original code
+
+let result;
+
+if (a + b < 4) {
+  result = "Below";
+} else {
+  result = "Over";
+}
+
+// my solution
+
+let result = (a + b < 4) ? 'Below' : 'Over';
+
+// rewrite 'if else' into '?'
+
+// original code
+
+let message;
+
+if (login == 'Employee') {
+  message = 'Hello';
+} else if (login == 'Director') {
+  message = 'Greetings';
+} else if (login == '') {
+  message = 'No login';
+} else {
+  message = '';
+}
+
+// my solution
+
+let message = (login == 'Employee') ? 'Hello' :
+(login == 'Director') ? 'Greetings' :
+(login == '') ? 'No login' :
+'';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
