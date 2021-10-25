@@ -1,0 +1,75 @@
+#+TITLE: INTRODUZIONE AL WEB DESIGN
+#+AUTHOR: Chris Sicorello
+
+* Table of Contents :toc:
+- [[#cosè-html][COS'È HTML]]
+- [[#i-tag][I TAG]]
+- [[#attributi][ATTRIBUTI]]
+
+* COS'È HTML
+
+HTML (HyperText Markup Language) è il linguaggio con cui si creano le pagine web.
+Ogni pagina web è scritta con HTML.
+
+* I TAG
+
+I tag sono i building blocks del linguaggio e servono a costruire i vari elementi sulla pagina.
+
+#+begin_src html
+
+    <!DOCTYPE html> <!-- questo tag dice al browser che stai usando HTML5 -->
+    <html> <!-- questo tag è fondamentale, perché segna l'inizio e la fine del documento -->
+      <head> <!-- qui ci sarà tutto il metadata, come il titolo della scheda e la lingua
+                  in cui è scritta la pagina -->
+      </head>
+
+      <body> <!-- qui ci saranno i building blocks per la pagina, come testo, immagini, video
+                  link e audio -->
+      </body>
+    </html>
+
+#+end_src
+
+ Altri tag fondamentali sono:
+
+ #+begin_src html
+
+    <!DOCTYPE html>
+    <html>
+
+      <head>
+        <title>nome della pagina</title> <!-- qui ci sarà il testo che apparirà nella barra
+                                              della scheda sul browser -->
+        <meta charset="UTF-8" lang="it"> <!-- questo tag segna la lingua e l'Unicode
+                                              contiene anche attributi -->
+      </head>
+
+      <body>
+        <p>lorem ipsum dolor sit amet soreta cazzinculo</p> <!-- questo è un paragrafo -->
+        hello<br>world <!-- <br> va a capo -->
+        <a href="https://github.com">sono un link</a> <!-- aggiunge link agli elementi sulla
+                                                           pagina (a significa anchor) -->
+      </body>
+
+    </html>
+
+ #+end_src
+
+* ATTRIBUTI
+
+    Gli attributi vengono dati ai tag quando si devono aggiungere info
+
+    #+begin_src html
+
+    <a href="https://github.com" target="_blank">link</a> <!-- href (hyperlink reference) si
+                                                               riferisce
+                                                               all'indirizzo a cui porta il
+                                                               link,
+                                                               target indica come aprire
+                                                               il link. Il valore
+                                                               _blank apre il link in una
+                                                               nuova scheda -->
+    <div class="box" id="blue"></div> <!-- class si può usare su uno o più elementi, id è
+                                           per un elemento solo -->
+
+    #+end_src
