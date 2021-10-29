@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(244, 234, 248);
+    color: #333;
+}
+
+h1 {
+    font-size: 50px;
+    color: #f15c62;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#nav li {
+    display: inline;
+}
+
+p {
+    padding: 15px;
+}
+
+.dark {
+    background: #333;
+    color: #fff;
+}
+
+.light {
+    background: #fff;
+    color: #333;
+}
+
+.red {
+    background: #f15c62;
+    color: #fff;
+}
+
+h2 {
+    font-size: 22px;
+    color: #fff;
+    background: #f15c62;
+    padding: 15px;
+    text-align: center;
+}
+
+a {
+    color: #f15c62;
+}

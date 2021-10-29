@@ -5,6 +5,10 @@
 - [[#cosè-html][COS'È HTML]]
 - [[#i-tag][I TAG]]
 - [[#attributi][ATTRIBUTI]]
+- [[#api][API]]
+  - [[#video-youtube][Video Youtube]]
+- [[#cosè-css][COS'È CSS]]
+- [[#struttura-di-un-foglio-di-stile][STRUTTURA DI UN FOGLIO DI STILE]]
 
 * COS'È HTML
 
@@ -72,4 +76,39 @@ I tag sono i building blocks del linguaggio e servono a costruire i vari element
     <div class="box" id="blue"></div> <!-- class si può usare su uno o più elementi, id è
                                            per un elemento solo -->
 
+
+    <p style="color: blueviolet;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Enim aperiam ut modi libero, voluptatem ullam repellat fuga
+            accusamus quo natus distinctio laudantium dolore cumque sed
+            itaque doloribus vero eligendi necessitatibus!</p> <!-- l'attributo style permette di aggiungere elementi di css inline -->
     #+end_src
+
+* API
+
+** Video Youtube
+
+#+begin_src html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tYzMYcUty6s"
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+    clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+
+#+end_src
+
+* COS'È CSS
+
+CSS (Cascading Style Sheets) è il linguaggio che permette di apportare modifiche grafiche al documento HTML.
+
+* STRUTTURA DI UN FOGLIO DI STILE
+
+#+begin_src css
+
+    h1 { /* selettore */
+    font-size: /* attributo */ 50px; /* valore */
+    color: #f15c62;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#+end_src
