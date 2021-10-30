@@ -14,6 +14,7 @@
   - [[#style][style]]
   - [[#lang][lang]]
   - [[#title][title]]
+- [[#headings][HEADINGS]]
 - [[#api][API]]
   - [[#video-youtube][Video Youtube]]
 - [[#cosè-css][COS'È CSS]]
@@ -66,14 +67,6 @@ L'elemento comprende tutto, dal tag iniziale a quello finale.
 
 Lo scopo del browser è leggere documenti HTML e far apparire correttamente gli elementi in cui vi si trovano.
 
-
-
-
-
-
-
-
-
 * ATTRIBUTI
 
 Gli attributi HTML aggiungono informazioni agli elementi.
@@ -98,7 +91,7 @@ L'attributo href (hyperlink reference) serve ai link per sapere dove devono port
 															   all'indirizzo a cui porta il
 															   link,
 															   target indica come aprire
-															   il link. Il valore
+															    il link. Il valore
 															   _blank apre il link in una
 															   nuova scheda -->
 
@@ -179,6 +172,28 @@ Il valore del titolo verrà mostrato come un tooltip quando punti il cursore sul
     <p title="sono il tooltip">Il mio bel paragrafo con tooltip</p>
 
 #+end_src
+
+
+* HEADINGS
+
+Gli headings in HTML sono titoli e sottotitoli.
+
+#+begin_src html
+
+    <h1>TITOLO</h1>
+    <h2>TITOLO</h2>
+    <h3>TITOLO</h3>
+    <h4>TITOLO</h4>
+    <h5>TITOLO</h5>
+    <h6>TITOLO</h6>
+
+#+end_src
+
+I motori di ricerca usano gli headings per indicizzare la struttura e i contenuti della pagina web.
+
+È importante usare gli headings per la struttura del documento, perché gli utenti spesso skimmano la pagina utilizzandoli.
+
+<h1> deve essere usato solo per gli headings principali, seguiti da <h2> e <h3>.
 
 * API
 
