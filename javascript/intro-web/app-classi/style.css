@@ -1,5 +1,11 @@
-h1 {
+body {
+    font-family: 'Red Hat Mono';
+}
 
+img {
+    width: 200;
+    height: 500;
+    border: 8px solid;
 }
 
 .card {
@@ -7,4 +13,12 @@ h1 {
     width: 200px;
     height: 500px;
     
+}
+
+.rosso {
+    color: red;
+}
+
+.margini {
+    border: 8px;
 }
