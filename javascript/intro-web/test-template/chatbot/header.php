@@ -14,16 +14,16 @@
                   <div class="collapse navbar-collapse" id="navbarNavDropdown">
                      <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                           <a class="nav-link active" href="index.html">Home</a>
+                           <a class="nav-link active" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="about-us.html">About Us</a>
+                           <a class="nav-link" href="about-us.php">About Us</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="features.html">Features</a>
+                           <a class="nav-link" href="features.php">Features</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="contact-us.html">Contact</a>
+                           <a class="nav-link" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item dropdown">
                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -31,14 +31,14 @@
                               Pages
                            </a>
                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="pricing.html">Pricing</a>
-                              <a class="dropdown-item" href="blog.html">Blog</a>
-                              <a class="dropdown-item" href="blog-detail.html">Blog Details</a>
-                              <a class="dropdown-item" href="feedback.html">Feedback</a>
+                              <a class="dropdown-item" href="pricing.php">Pricing</a>
+                              <a class="dropdown-item" href="blog.php">Blog</a>
+                              <a class="dropdown-item" href="blog-detail.php">Blog Details</a>
+                              <a class="dropdown-item" href="feedback.php">Feedback</a>
                               <a class="dropdown-item" href="404-error.html">404 Error</a>
                               <a class="dropdown-item" href="comingsoon.html">Coming Soon</a>
-                              <a class="dropdown-item" href="support.html">Support</a>
-                              <a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a>
+                              <a class="dropdown-item" href="support.php">Support</a>
+                              <a class="dropdown-item" href="privacy-policy.php">Privacy Policy</a>
                            </div>
                         </li>
                      </ul>
@@ -47,8 +47,8 @@
             </div>
             <div class="col-lg-3 text-right">
                <ul class="login">
-                  <li class="d-inline"><a href="login.html">Login</a></li>
-                  <li class="d-inline active"><a href="register.html">Register</a></li>
+                  <li class="d-inline"><a href="login.php">Login</a></li>
+                  <li class="d-inline active"><a href="register.php">Register</a></li>
                </ul>
             </div>
          </div>

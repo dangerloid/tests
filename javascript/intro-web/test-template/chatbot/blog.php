@@ -30,60 +30,7 @@
       <!-- loading End -->
       <!--=================================
          Header -->
-      <header id="header">
-         <div class="container">
-            <div class="row align-items-center">
-               <div class="col-lg-9">
-                  <nav class="navbar navbar-expand-lg navbar-light">
-                     <a class="navbar-brand" href="index.html">
-                     <img class="logo" src="images/fedex.png" alt="image">
-                     <img class="logo-stiky" src="images/fedex.png" alt="image">
-                     </a>
-                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                     <span class="navbar-toggler-icon"></span>
-                     </button>
-                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav ml-auto">
-                           <li class="nav-item">
-                              <a class="nav-link" href="index.html">Home</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="about-us.html">About Us</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="features.html">Features</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="contact-us.html">Contact</a>
-                           </li>
-                           <li class="nav-item dropdown active">
-                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Pages
-                              </a>
-                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <a class="dropdown-item" href="pricing.html">Pricing</a>
-                                 <a class="dropdown-item  active" href="blog.html">Blog</a>
-                                 <a class="dropdown-item" href="blog-detail.html">Blog Details</a>
-                                 <a class="dropdown-item" href="feedback.html">Feedback</a>
-                                 <a class="dropdown-item" href="404-error.html">404 Error</a>
-                                 <a class="dropdown-item" href="comingsoon.html">Coming Soon</a>
-                                 <a class="dropdown-item" href="support.html">Support</a>
-                                 <a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a>
-                              </div>
-                           </li>
-                        </ul>
-                     </div>
-                  </nav>
-               </div>
-               <div class="col-lg-3 text-right">
-                  <ul class="login">
-                     <li class="d-inline"><a href="login.html">Login</a></li>
-                     <li class="d-inline active"><a href="register.html">Register</a></li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-      </header>
+      <?php include('header.php');?>
       <!--=================================
          Header -->
       <!--=================================
@@ -262,35 +209,7 @@
          MAIN CONTENT -->
             <!--=================================
          Footer -->
-      <footer>
-         <img class="img-fluid footer-before" src="images/footer-before.png" alt="image">
-         <div class="container">
-            <div class="row align-items-center">
-               <div class="col-lg-3 col-md-4 col-sm-12 re-center">
-                  <a href="index.html"><img class="img-fluid logo" alt="#" src="images/fedex.png"></a>
-                  <div class="link mt-2">Design By <a href="https://iqonicthemes.com/">iqonictheme</a></div>
-               </div>
-               <div class="col-lg-6 col-md-4 col-sm-12 text-center text-uppercase">
-                  <ul class="copyright">
-                     <li class="d-inline ml-4 mr-4"><a href="privacy-policy.html">Privacy Policy</a></li>
-                     <li class="d-inline ml-4 mr-4"><a href="contact-us.html">Contact Us</a></li>
-                  </ul>
-               </div>
-               <div class="col-lg-3 col-md-4 col-sm-12 text-right r-mt3">
-                  <ul class="media-box">
-                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                     <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <!-- back-to-top -->
-         <div id="back-to-top">
-            <a class="top" id="top" href="#top"><i class="ion-ios-arrow-thin-up"></i></a>
-         </div>
-         <!-- back-to-top End -->
-      </footer>
+      <?php include('footer.php');?>
       <!--=================================
          Footer -->  
       <!--=================================
