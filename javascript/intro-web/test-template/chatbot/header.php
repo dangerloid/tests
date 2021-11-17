@@ -17,7 +17,7 @@
                            <a class="nav-link active" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="about-us.php">About Us</a>
+                           <a class="nav-link" href="http://ecommerce.immaginazioneelavoro.a2hosted.com/elettronica/75-iphone-12.html">e-commerce</a>
                         </li>
                         <li class="nav-item">
                            <a class="nav-link" href="features.php">Features</a>
