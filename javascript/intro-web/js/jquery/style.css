@@ -1,0 +1,47 @@
+html, body, div, p{
+	margin:0px;
+	padding: 0px;
+}
+
+body{
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#contenitore
+{
+	width: 60%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.contenitoreNuovo a {
+    color: #ffffff;
+}
+
+.contenitoreNuovo
+{
+    background-color: #444444;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 11px;
+}
+
+.capitoloNuovo
+{
+    background-color: darkcyan;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+p.capitolo
+{
+	background-color: #CCCCCC;
+	color: #FFFFFF;
+	padding: 8px;
+}

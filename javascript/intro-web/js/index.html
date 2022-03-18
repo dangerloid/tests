@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esempi JS</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        hr {
+            margin-bottom: 20px;
+        }
+    </style>
+    
+
+</head>
+<body>
+    
+    <h1>Cosa posso fare con JavaScript?</h1>
+    
+    <p id="change">Posso cambiare il contenuto</p>
+    <button type="button" onclick="document.getElementById('change').innerHTML = 'Sto imparando JS!'">Clicca</button>
+    
+    <hr>
+
+    <p>Posso cambiare gli attributi</p>
+
+    <button onclick="document.getElementById('immagine').src='img/rosso.jpg'">Scelgo il quadrato rosso</button>
+
+    <img id="immagine" src="img/blu.jpg" style="width: 100px;">
+
+    <button onclick="document.getElementById('immagine').src='img/verde.png'">Scelgo il quadrato verde</button>
+
+    <button onclick="document.getElementById('immagine').src='img/blu.jpg'">Scelgo il quadrato blu</button>
+
+    <hr>
+    
+    <p id="nascosto">Posso nascondere un elemento</p>
+
+    <button type="button" onclick="document.getElementById('nascosto').style.display='none'">Nascondi l'elemento</button>
+
+    <button type="button" onclick="document.getElementById('nascosto').style.display='block'">Mostrami l'elemento</button>
+
+    <hr>
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
